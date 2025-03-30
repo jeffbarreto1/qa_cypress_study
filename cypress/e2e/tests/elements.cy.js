@@ -4,7 +4,6 @@ describe('Work with basic elements', () => {
 
     beforeEach(() => {
         cy.visit('https://wcaquino.me/cypress/componentes.html')
-        cy.reload()
     })
 
     it('Text', () => {
