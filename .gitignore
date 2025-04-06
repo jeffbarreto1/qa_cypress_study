@@ -1,9 +1,36 @@
 # Logs
 logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Dependency directory
 node_modules
+.npm
+.yarn
+
+# Cypress
 cypress/videos
 cypress/screenshots
 cypress/downloads
+
+# Allure
+allure-results
+allure-report
+
+# Coverage
+coverage
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea
+.vscode
+
+# OS
+.DS_Store
+Thumbs.db
